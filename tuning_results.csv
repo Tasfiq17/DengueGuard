@@ -1,0 +1,49 @@
+horizon,model,params,train_MAE,validation_MAE,seconds
+2,ExtraTrees,"{""max_features"": 0.3, ""min_samples_leaf"": 10}",0.8279556211383814,0.9752621183589709,4.628439426422119
+2,ExtraTrees,"{""max_features"": 0.6, ""min_samples_leaf"": 10}",0.7780856641479429,0.9348585307108394,6.482872009277344
+2,ExtraTrees,"{""max_features"": 0.3, ""min_samples_leaf"": 40}",0.9872071319739245,1.039767525824046,4.0822913646698
+2,ExtraTrees,"{""max_features"": 0.6, ""min_samples_leaf"": 40}",0.9506335287756014,0.9645221956708808,6.48626971244812
+2,RandomForest,"{""max_features"": 0.3, ""min_samples_leaf"": 10}",0.7550483346072857,0.9331269969405507,15.260085821151733
+2,RandomForest,"{""max_features"": 0.6, ""min_samples_leaf"": 10}",0.7299459000609495,0.9155394547871792,18.426671981811523
+2,RandomForest,"{""max_features"": 0.3, ""min_samples_leaf"": 40}",0.9301467458550904,0.9468150196568754,7.615515232086182
+2,RandomForest,"{""max_features"": 0.6, ""min_samples_leaf"": 40}",0.9152207275094849,0.9364456064742482,14.000109672546387
+2,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20}",0.9351745297470981,0.9360003083631905,1.8839387893676758
+2,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 100}",0.935462458646975,0.9266073255761199,1.671215295791626
+2,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 20}",0.86967033205031,0.9080489794003324,1.6425223350524902
+2,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 100}",0.8752912616906102,0.9147591058786279,2.58500075340271
+2,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20}",0.930184167547617,0.9256936674189914,1.7091717720031738
+2,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 100}",0.9310457971737718,0.9275982572344044,1.7148079872131348
+2,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 20}",0.8801268497891185,0.9434236373600182,2.1548376083374023
+2,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 100}",0.8805156224873644,0.9202853583757793,2.8256325721740723
+3,ExtraTrees,"{""max_features"": 0.3, ""min_samples_leaf"": 10}",0.8377363666764829,1.0659929420558691,2.325547456741333
+3,ExtraTrees,"{""max_features"": 0.6, ""min_samples_leaf"": 10}",0.7858744895612013,1.0132965708881194,3.1119461059570312
+3,ExtraTrees,"{""max_features"": 0.3, ""min_samples_leaf"": 40}",1.0120622011662361,1.1317164965052062,1.412170171737671
+3,ExtraTrees,"{""max_features"": 0.6, ""min_samples_leaf"": 40}",0.9673166792529628,1.025601856621195,2.5233070850372314
+3,RandomForest,"{""max_features"": 0.3, ""min_samples_leaf"": 10}",0.7657821888618226,1.0134197401790954,10.159231662750244
+3,RandomForest,"{""max_features"": 0.6, ""min_samples_leaf"": 10}",0.737388640043404,0.994461838576338,17.90971302986145
+3,RandomForest,"{""max_features"": 0.3, ""min_samples_leaf"": 40}",0.9411564768451313,1.0126668961350858,6.555121421813965
+3,RandomForest,"{""max_features"": 0.6, ""min_samples_leaf"": 40}",0.9228076639042921,1.0106209521892406,14.090585470199585
+3,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20}",0.9637161772573328,0.9502358474542263,1.6701033115386963
+3,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 100}",0.9675885201241277,0.9547566399662121,1.7943103313446045
+3,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 20}",0.8913712519654257,0.9636343568129551,1.9661815166473389
+3,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 100}",0.8978012837087388,0.955867284404708,1.539832592010498
+3,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20}",0.9528382382956904,0.9538539362737635,1.5371289253234863
+3,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 100}",0.9521155334847062,0.9473730278804608,1.5190515518188477
+3,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 20}",0.9011164271545905,0.9802789193355899,1.966177225112915
+3,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 100}",0.9038912853650752,0.988161133980911,1.925008773803711
+4,ExtraTrees,"{""max_features"": 0.3, ""min_samples_leaf"": 10}",0.8498275723747043,1.1980170584328684,2.395399332046509
+4,ExtraTrees,"{""max_features"": 0.6, ""min_samples_leaf"": 10}",0.7997311299281437,1.1678441499125767,4.634583234786987
+4,ExtraTrees,"{""max_features"": 0.3, ""min_samples_leaf"": 40}",1.0461686917781132,1.2435559997470396,1.3459193706512451
+4,ExtraTrees,"{""max_features"": 0.6, ""min_samples_leaf"": 40}",1.0093947264470218,1.1778079588041417,2.3382041454315186
+4,RandomForest,"{""max_features"": 0.3, ""min_samples_leaf"": 10}",0.7776526623942538,1.2073316416479034,9.241125106811523
+4,RandomForest,"{""max_features"": 0.6, ""min_samples_leaf"": 10}",0.7521676810609711,1.1964108381732481,26.54453992843628
+4,RandomForest,"{""max_features"": 0.3, ""min_samples_leaf"": 40}",0.9721209894580106,1.1737615372546497,11.126889705657959
+4,RandomForest,"{""max_features"": 0.6, ""min_samples_leaf"": 40}",0.9503030482402355,1.159561176683778,14.499807596206665
+4,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20}",0.995232928449227,1.149257394387902,1.3199150562286377
+4,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 100}",0.9950854567365919,1.1744316466933724,1.235222578048706
+4,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 20}",0.9046212072363208,1.1610333795582861,1.6167645454406738
+4,HistGradientBoosting,"{""loss"": ""squared_error"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 100}",0.9130513714724305,1.2083964227857344,1.5005314350128174
+4,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20}",0.9749746450162717,1.100280231816947,1.957101583480835
+4,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 8, ""min_samples_leaf"": 100}",0.9770722215031657,1.1231591397628733,2.0826385021209717
+4,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 20}",0.9080508958775753,1.1364356302660543,2.0986289978027344
+4,HistGradientBoosting,"{""loss"": ""poisson"", ""max_leaf_nodes"": 16, ""min_samples_leaf"": 100}",0.9086977527474038,1.1366856552411537,1.8261377811431885

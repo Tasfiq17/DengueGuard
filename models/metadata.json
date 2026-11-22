@@ -1,0 +1,155 @@
+{
+  "features": [
+    "population_density_sqkm",
+    "water_logging_risk_index",
+    "sanitation_score",
+    "avg_temp_c",
+    "max_temp_c",
+    "min_temp_c",
+    "rainfall_mm",
+    "relative_humidity_pct",
+    "month",
+    "week_of_year",
+    "week_sin",
+    "week_cos",
+    "cases_current",
+    "rainfall_mm_lag_1w",
+    "rainfall_mm_lag_2w",
+    "rainfall_mm_lag_3w",
+    "rainfall_mm_lag_4w",
+    "avg_temp_c_lag_1w",
+    "avg_temp_c_lag_2w",
+    "avg_temp_c_lag_3w",
+    "avg_temp_c_lag_4w",
+    "max_temp_c_lag_1w",
+    "max_temp_c_lag_2w",
+    "max_temp_c_lag_3w",
+    "max_temp_c_lag_4w",
+    "min_temp_c_lag_1w",
+    "min_temp_c_lag_2w",
+    "min_temp_c_lag_3w",
+    "min_temp_c_lag_4w",
+    "relative_humidity_pct_lag_1w",
+    "relative_humidity_pct_lag_2w",
+    "relative_humidity_pct_lag_3w",
+    "relative_humidity_pct_lag_4w",
+    "rainfall_sum_prev_2w",
+    "rainfall_sum_prev_4w",
+    "rainfall_sum_prev_8w",
+    "avg_temp_c_mean_prev_4w",
+    "relative_humidity_pct_mean_prev_4w",
+    "cases_lag_1w",
+    "cases_lag_2w",
+    "cases_lag_3w",
+    "cases_lag_4w",
+    "cases_mean_prev_4w"
+  ],
+  "categorical": [
+    "city"
+  ],
+  "model_inputs": [
+    "population_density_sqkm",
+    "water_logging_risk_index",
+    "sanitation_score",
+    "avg_temp_c",
+    "max_temp_c",
+    "min_temp_c",
+    "rainfall_mm",
+    "relative_humidity_pct",
+    "month",
+    "week_of_year",
+    "week_sin",
+    "week_cos",
+    "cases_current",
+    "rainfall_mm_lag_1w",
+    "rainfall_mm_lag_2w",
+    "rainfall_mm_lag_3w",
+    "rainfall_mm_lag_4w",
+    "avg_temp_c_lag_1w",
+    "avg_temp_c_lag_2w",
+    "avg_temp_c_lag_3w",
+    "avg_temp_c_lag_4w",
+    "max_temp_c_lag_1w",
+    "max_temp_c_lag_2w",
+    "max_temp_c_lag_3w",
+    "max_temp_c_lag_4w",
+    "min_temp_c_lag_1w",
+    "min_temp_c_lag_2w",
+    "min_temp_c_lag_3w",
+    "min_temp_c_lag_4w",
+    "relative_humidity_pct_lag_1w",
+    "relative_humidity_pct_lag_2w",
+    "relative_humidity_pct_lag_3w",
+    "relative_humidity_pct_lag_4w",
+    "rainfall_sum_prev_2w",
+    "rainfall_sum_prev_4w",
+    "rainfall_sum_prev_8w",
+    "avg_temp_c_mean_prev_4w",
+    "relative_humidity_pct_mean_prev_4w",
+    "cases_lag_1w",
+    "cases_lag_2w",
+    "cases_lag_3w",
+    "cases_lag_4w",
+    "cases_mean_prev_4w",
+    "city"
+  ],
+  "use_ward_id": false,
+  "thresholds": {
+    "2": [
+      4.0,
+      9.0,
+      15.0
+    ],
+    "3": [
+      4.0,
+      9.0,
+      15.0
+    ],
+    "4": [
+      4.0,
+      9.0,
+      15.0
+    ]
+  },
+  "horizons": [
+    2,
+    3,
+    4
+  ],
+  "selected_models": {
+    "2": "HistGradientBoosting",
+    "3": "HistGradientBoosting",
+    "4": "HistGradientBoosting"
+  },
+  "selected_stage": {
+    "2": 150,
+    "3": 250,
+    "4": 250
+  },
+  "selected_params": {
+    "2": {
+      "loss": "squared_error",
+      "max_leaf_nodes": 16,
+      "min_samples_leaf": 20
+    },
+    "3": {
+      "loss": "poisson",
+      "max_leaf_nodes": 8,
+      "min_samples_leaf": 100
+    },
+    "4": {
+      "loss": "poisson",
+      "max_leaf_nodes": 8,
+      "min_samples_leaf": 20
+    }
+  },
+  "data_start": "2016-01-04",
+  "data_end": "2025-12-29",
+  "n_wards": 60,
+  "forecast_definition": "Single weekly dengue case count exactly h weeks after issue date",
+  "random_state": 42,
+  "sklearn_version": "1.6.1",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.4.6",
+  "python_version": "3.13.18"
+}
